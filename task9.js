@@ -4,3 +4,8 @@
 
 const string = 'abcde' // тестовий рядок 1
 const stringSecond = 'bcde' // тестовий рядок 2
+function checkStr(str) {
+    return str.indexOf("a")===0 ? "yes" : "no"
+}
+console.log(checkStr(string))
+console.log(checkStr(stringSecond))
